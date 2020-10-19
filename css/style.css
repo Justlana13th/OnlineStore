@@ -1,0 +1,151 @@
+body {
+    font-family: 'montserrat';
+}
+
+.navbar {
+    background-color: #171717;
+    border-bottom: 1px solid #333;
+}
+
+.nav-item {
+    margin-right: 24px;
+    font-weight: 200;
+}
+
+.nav-item.active a {
+    color: #f9b234 !important;
+    font-weight: 600;
+}
+
+.nav-link span {
+    color: #f9b234;
+    font-weight: 600;
+}
+
+/* Carousel */
+.carousel {
+    background-color: #171717;
+    height: 450px;
+    color: white;
+}
+
+.carousel h1 {
+    font-family: 'Lora';
+}
+
+.carousel p {
+    font-weight: 200;
+}
+
+.features h3,
+.designers h3,
+.cart-header h3,
+.checkout-modal h3 {
+    font-family: 'Lora';
+    color: #1b2690;
+    font-weight: bold;
+}
+
+.features p,
+.designers p,
+.cart-header p,
+.checkout-modal p,
+footer p {
+    font-weight: 200;
+    color: #b7b7b7;
+}
+
+.figure h5 {
+    color: #171717;
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 8px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+.designer-foto {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+/* Breadcrumbs */
+
+.breadcrumb {
+    margin-top: 100px;
+}
+
+.cart-breadcrumb {
+    margin-top: 50px;
+}
+
+.figure-caption a img {
+    height: 75px;
+    width: 75px;
+}
+
+.product-thumbnail-container {
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    width: 360px;
+    padding: 8px;
+    margin: auto;
+    transform: translateY(-45px);
+}
+
+.product-thumbnail-container a:hover {
+    text-decoration: none;
+}
+
+.btn-product {
+    margin: 50px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EAEAEF;
+}
+
+.btn-product .btn {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Product Description */
+
+.product-description {
+    background-color: #F6F7FB;
+    height: 350px;
+}
+
+.product-description .tab-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.product-description .tab-content p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #868686;
+    line-height: 28px;
+}
+
+.checkout-detail {
+    background-color: #F6F7FB;
+    border: 1px solid #EAEAEA;
+    color: #171717;
+}
